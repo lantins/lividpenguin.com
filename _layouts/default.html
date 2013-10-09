@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}" />
+    {% else site.description %}
+      <meta name="description" content="{{ site.description }}" />
+    {% endif %}
+
+    {% if page.keywords %}
+      <meta name="keywords" content="{{ page.keywords | join: ',' }}" />
+    {% else site.description %}
+      <meta name="keywords" content="{{ site.keywords | join: ',' }}" />
+    {% endif %}
+
+    <meta name="author" content="Luke Antins">
+
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+
+    <title>{{ page.title }}</title>
+
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/assets/css/livid.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/assets/js/html5shiv.js"></script>
+      <script src="/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div id="wrap">
+
+      <div class="top-bar">
+        {% include navbar.html %}
+      </div>
+
+      <section>
+        {{ content }}
+      </section>
+
+
+    </div>
+
+    <footer id="footer" class="navbar-inverse">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-8">
+            <span class="footer-copyright">&copy; 2008-2013 Livid Penguin</span>
+          </div>
+          <div class="col-xs-4">
+            <ul class="footer-links">
+              <li><a href="#">Top</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div> <!-- /container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+
+    {% if site.google_analytics %}
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-5369593-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    {% endif %}
+  </body>
+</html>

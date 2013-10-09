@@ -1,0 +1,25 @@
+name: Livid Penguin
+baseurl: http://lividpenguin.com
+markdown: redcarpet
+pygments: true
+
+google_analytics: true
+
+exclude: ['Rakefile']
+
+description: "Indie game development for iOS"
+keywords:
+  - indie
+  - iOS
+  - game
+  - development
+  - spectra
+  - asteroid
+  - retro
+  - space
+  - shoot
+  - classic
+  - arcade
+  - blast
+  - alien
+  - pew

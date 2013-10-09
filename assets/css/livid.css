@@ -1,0 +1,235 @@
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+html,
+body {
+  height: 100%;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+/*******************************************************************************
+ * Fonts
+ ******************************************************************************/
+
+@font-face {
+  font-family: 'Geo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Geo'), local('Geo-Regular'), url(../fonts/Geo-Regular.ttf) format('woff');
+}
+
+h1, h2, h3, h4, h5 {
+}
+
+/*******************************************************************************
+ * Navigation Bar
+ ******************************************************************************/
+
+.navbar {
+  font-family: 'Geo', sans-serif;
+  background-color: #222222;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border: none;
+}
+
+.navbar-inverse .navbar-brand {
+
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 42px;
+  line-height: 42px;
+  color: #FFC900;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFC900;
+  text-transform: uppercase;
+}
+
+.navbar-toggle {
+  margin-top: 19px
+}
+
+.top-bar .dropdown-menu {
+  min-width: 100%;
+}
+
+/*******************************************************************************
+ * Jumbotron - Penguin 
+ ******************************************************************************/
+
+.jumbotron.penguin {
+  background: #716558;
+  background-image: url(../img/full-penguin-cropped.png);
+  background-repeat: no-repeat;
+  background-position: right -140px top 50px;
+  background-size: 600px;
+  color: #FFC900;
+  margin-bottom: 0px;
+  font-family: 'Geo', sans-serif;
+}
+
+.jumbotron figcaption {
+}
+
+.jumbotron.penguin figcaption h1 {
+  margin-top: 0px;
+  font-family: 'Geo', sans-serif;
+}
+
+.jumbotron.penguin .app-store-badge {
+  margin-top: 14px;
+}
+
+@media (max-width: 1199px) {
+  .jumbotron.penguin {
+    background-size: 400px;
+  }
+}
+
+@media (max-width: 993px) {
+  .jumbotron.penguin {
+    background-image: none;
+  }
+}
+
+
+/*******************************************************************************
+ * App Store Badge
+ ******************************************************************************/
+.app-store-badge {
+  display:inline-block;
+  overflow:hidden;
+  background:url(../img/badge_appstore-lrg.png) no-repeat;
+  width:135px;
+  height:40px;
+  @media only screen{
+    background-image:url(../img/badge_appstore-lrg.svg);
+  }
+}
+
+/*******************************************************************************
+ * Appe Hardware Screens
+ ******************************************************************************/
+
+.hardware-5s {
+  position:relative;
+  z-index:1;
+  width:351px;
+  min-height:696px;
+  background:url(/assets/img/hardware-5s.png) no-repeat 0 0;
+  background-size:351px 696px; -webkit-transform:translateZ(0);
+}
+
+.hardware-5s img { display:block; position:absolute; z-index:1; top:107px; left:42px; }
+
+.hardware-5s.landscape {
+  width:696px;
+  min-height:351px;
+  background-image:url(/assets/img/hardware-5s-landscape.png);
+  background-size:696px 351px;
+}
+
+.hardware-inside {
+  width:472px;
+}
+
+.hardware-5s.landscape img { top:36px; left:107px; }
+
+.hardware-5s.landscape figcaption {
+  width: 460px;
+  padding: 357px 0 0;
+  margin: 0px auto;
+}
+
+/*******************************************************************************
+ * Footer
+ ******************************************************************************/
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -25px;
+  /* Pad bottom by footer height */
+  padding: 0 0 25px;
+}
+
+#footer {
+  height: 25px;
+  background-color: #222222;
+  font-family: 'Geo', sans-serif;
+
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+#footer ul {
+  margin-bottom: 0px;
+}
+
+.footer-copyright {
+  color: #999;
+}
+
+.footer-links {
+  float: right;
+  display: inline;
+}
+
+.footer-links li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.footer-links li > a {
+  color: #FFC900;
+  text-decoration: none;
+}
+
+.footer-links li > a:hover {
+  color: #fff;
+}
+
+/*******************************************************************************
+ * FAQs
+ ******************************************************************************/
+
+.faqs .question {
+  border-bottom: 6px solid #ccc;
+  line-height: 34px;
+  padding: 0px 0px 10px;
+}
+
+.faqs .answer {
+  font-size: 18px;
+}
+
+/*******************************************************************************
+ * Version History
+ ******************************************************************************/
+
+.version-history .panel-heading .panel-title {
+  margin: 0px 0px 8px;
+}
+
+/*******************************************************************************
+ * Get In Touch
+ ******************************************************************************/
+
+ul.contact-details {
+  font-size: 20px;
+}
+
+ul.contact-details a {
+  text-decoration: none;
+}
