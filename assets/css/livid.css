@@ -3,6 +3,7 @@
 html,
 body {
   height: 100%;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 .white-bg {
@@ -18,6 +19,31 @@ body {
   font-style: normal;
   font-weight: 400;
   src: local('Geo'), local('Geo-Regular'), url(../fonts/Geo-Regular.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/OpenSans-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(../fonts/OpenSans-Italic.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(../fonts/OpenSans-BoldItalic.woff) format('woff');
 }
 
 h1, h2, h3, h4, h5 {
@@ -220,6 +246,40 @@ h1, h2, h3, h4, h5 {
 
 .version-history .panel-heading .panel-title {
   margin: 0px 0px 8px;
+}
+
+.version-history ul {
+  padding-left: 120px;
+}
+
+.version-history ul > li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.version-history .panel-body {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.version-history .panel-body p { margin-bottom: 0px; }
+
+.version-history .panel-body .label {
+  float: left;
+  width: 100px;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: -120px;
+  position: relative;
+}
+
+.version-history .label-improved {
+  background-color: #1E3642;
+}
+
+.version-history .label-fixed {
+  background-color: #eeeeee;
+  color: #333333;
 }
 
 /*******************************************************************************
