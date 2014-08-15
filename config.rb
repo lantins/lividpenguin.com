@@ -64,6 +64,6 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method       = :rsync
   deploy.host         = 'de1.lividpenguin.com'
-  deploy.path         = '/data/vhost/lividpenguin/lividpenguin.com/public'
+  deploy.path         = '/srv/vhost/lividpenguin.com'
   deploy.clean        = true
 end
