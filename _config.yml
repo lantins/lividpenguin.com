@@ -1,7 +1,6 @@
 name: Livid Penguin
-baseurl: http://lividpenguin.com
 markdown: redcarpet
-pygments: true
+highlighter: true
 
 google_analytics: true
 
