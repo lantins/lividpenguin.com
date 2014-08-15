@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <% if current_page.data.description %>
+      <meta name="description" content="<%= current_page.data.description %>" />
+    <% else data.meta.description %>
+      <meta name="description" content="<%= current_page.data.description %>" />
+    <% end %>
+
+    <% if current_page.data.keywords %>
+      <meta name="keywords" content="<%= current_page.data.keywords.join(',') %>" />
+    <% else data.meta.keywords %>
+      <meta name="keywords" content="<%= data.meta.keywords.join(',') %>" />
+    <% end %>
+
+    <meta name="author" content="Luke Antins">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <title><%= current_page.data.title || data.meta.title %></title>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Geo" rel="stylesheet" type="text/css">
+
+    <%= stylesheet_link_tag 'livid' %>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!--[if lt IE 7]>
+      <p class="outdatedbrowser">You are using an outdated browser :(<br><a href="http://browsehappy.com/">Upgrade your browser</a> for a better and safer internet experience.</p>
+    <![endif]-->
+
+    <div id="wrap">
+
+      <div class="top-bar">
+        <%= partial 'navbar' %>
+      </div>
+
+      <section>
+        <!-- PAGE CONTENT: START -->
+        <%= yield %>
+        <!-- PAGE CONTENT: END -->
+      </section>
+
+    </div>
+
+    <footer id="footer" class="navbar-inverse">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-8">
+            <span class="footer-copyright">&copy; 2008-2014 Livid Penguin</span>
+          </div>
+          <div class="col-xs-4">
+            <ul class="footer-links">
+              <li><a href="#">Top</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div> <!-- /container -->
+    </footer>
+
+    <%= google_analytics_universal_tag %>
+
+  </body>
+</html>

@@ -1,3 +1,12 @@
-_site
-assets/img/full-penguin-4000x1800.png
-assets/img/full-penguin-940x492.png
+# Ignore bundler config
+/.bundle
+
+# Ignore the middleman build directory
+/build
+
+# Ignore cache
+/.sass-cache
+/.cache
+
+# Prevent OS X litter
+.DS_Store

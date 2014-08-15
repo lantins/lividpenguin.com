@@ -1,0 +1,27 @@
+<!--
+        <li class="<%= if_path %r{^/$}, 'pure-menu-selected' %>"><a href="/">About</a></li>
+-->
+
+<div class="navbar navbar-inverse">
+  <div class="container">
+
+    <nav class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Livid Penguin</a>
+    </nav>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="<%= if_path %r{^/$}, 'active' %>"><a href="/">SPECTRA</a></li>
+        <li class="<%= if_path %r{^/get-in-touch}, 'active' %>"><a href="/get-in-touch">GET IN TOUCH</a></li>
+
+      </ul>
+
+    </div><!--/.navbar-collapse -->
+
+  </div>
+</div>
