@@ -250,11 +250,12 @@ h1, h2, h3, h4, h5 {
 
 .version-history ul {
   padding-left: 120px;
+  margin-bottom: 0px;
 }
 
 .version-history ul > li {
   list-style-type: none;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .version-history .panel-body {
@@ -262,7 +263,10 @@ h1, h2, h3, h4, h5 {
   line-height: 16px;
 }
 
-.version-history .panel-body p { margin-bottom: 0px; }
+.version-history .panel-body p {
+  margin-bottom: 0px;
+  line-height: 21px;
+}
 
 .version-history .panel-body .label {
   float: left;
@@ -271,10 +275,15 @@ h1, h2, h3, h4, h5 {
   font-size: 14px;
   margin-left: -120px;
   position: relative;
+  font-weight: normal;
 }
 
 .version-history .label-improved {
   background-color: #1E3642;
+}
+
+.version-history .label-new {
+  background-color: #36A159;
 }
 
 .version-history .label-fixed {
