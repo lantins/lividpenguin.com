@@ -27,16 +27,6 @@ helpers do
     regex =~ current_page.url ? classes : ''
   end
 
-  # Output a 'list' of tag links
-  def tag_link_list(current_article)
-    tags = current_article.tags
-    links = tags.inject([]) do |result, tag|
-      result << "#{link_to(tag, tag_path(tag))}"
-    end
-
-    links.join(' &middot; ')
-  end
-
   # Format dates how I want them
   def format_date(date)
     date.strftime("%B #{date.day.ordinalize}, %Y")
