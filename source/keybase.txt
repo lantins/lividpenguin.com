@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/lantins
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lividpenguin.com
+  * I am lantins (https://keybase.io/lantins) on keybase.
+  * I have a public key with fingerprint 3366 7ED2 56B6 DE75 CB54  FF32 CE4A 3E8F EC30 EDDC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.15"
+        },
+        "key": {
+            "fingerprint": "33667ed256b6de75cb54ff32ce4a3e8fec30eddc",
+            "host": "keybase.io",
+            "key_id": "CE4A3E8FEC30EDDC",
+            "uid": "c2ef1c0ede2effd15a9a09fdb4625a00",
+            "username": "lantins"
+        },
+        "merkle_root": {
+            "ctime": 1408194040,
+            "hash": "fa0f996fede192b1249dbbdcd264ef40b1c709391f4ef13c49666f74107a74a4971c1382faafabdc71085122817c5bbdb864ecc84cecf72d178cf1e8b3435c97",
+            "seqno": 39400
+        },
+        "service": {
+            "hostname": "lividpenguin.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408194148,
+    "expire_in": 157680000,
+    "prev": "3fe2950f368d4c5b9b5acaaacd41cb91fed1ca848dce3411f2488637da56a6aa",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVUn1QFVUUf5BIYQpTGY0IwjoIDfTYu3v3iwa/AJ0QdRrUUSl4d+/efW8Vdp/7
+Hiji82toEhPJMRkaY2pKG9IxPkwGxhSSGXEgP6aCgYlSREIqcETRisx2HZ3y/nXu
+Pb/zO7/fOff96c84woIuZc2v/J0e7Q/qGpEdObfWKKWUbCglVGophQs0ovvtSEeF
+hEqlNpISGfmIUzNidUMhzg2+2MeYZKqYmD7N0C0U7YROwFGBZBtvV6ua7iam19Rs
+MopleV4gCsPxMq8QgcMyB1WVZTCBiCWiSjBLE0XBFqfH8Pmfaks94szXFOs1PRMu
+YjPFJZnpLJ2ZkZFu5YoeJTBDVIAtDmIFqgI4JCFaUhUZ8gyHaNoG+oj52FMB0v2a
+7rPlFhJzYwHJNw3jkWns12wEgLQIJEhD2hKEfB6rRkW0Kkm8arUAEiMDBkqKLCtY
+YXhIVEjLAAu0xEpAta6AxVDieV4VIKAFJEAEJQFgwIqMipCKrDoB0CIHGEYEAuYs
+Ilm0eDAWISZYFRgFCCJWARFlFrIclgTLgY9s0g0qlbWE0QH7ahZrmNiy7aE98aYV
+a4qX6O4iTXdio9Cq85qG38BGgZX1+P3eVNu3v8Rrozc3EDn/MVG+rOmKtbb/LxZY
+0KdnAqCYTJEtXs0k+ZqN4ARepK1j9yHF9rJVwkgcrbK8qEDLmyRzCCOEsAIBlq0B
+EQVgJEJRwYSFAKgMFEWeFRTE8YhH6D+nAFhCkdvi9GluHfmLTEIFyoNnT3EEhTmm
+hgTbX9cR9lzEk/8ccyf8YVHjT/0pbftSJl21ocmnLs9FlzdT/M0TI8mmODYWl1u2
+uJ2Z96zwd8V87f6F3Natp5tfPG4mZ3XXjLPuVsPzWeDaOOob2EPVJA5lNTr6Af1r
+9qrFkf21MTe1BZdGjPpw+c+U+J68j1I8U9LPnqr7tuL78sS0lRczrh4LzX6n5m51
+2O2w98oLxy6SDXXRpaMHSwPxOyJf+atzRsXaLyfYturc6bsqZ28IlLn3PXjX23E4
+JrSrPPybtecfRBbNaG1Mb94b9/OcoPZdZEVU7/I+P9y0ZtKfMHNdeNJpT1xCYe3N
+Q6s1MvN+/pkrOxr6KwdfOPBy1eQ/25b5q69NrGxa8dp3dfd+2317XWzJrPnVea6y
+7SM7k3akiFHZUXlpN5KmtcyqXLQe5nyeeSz6reWxk+Fzr1ad/Yoa7EqbGKiJak+s
+cVzY3hPz0NU2PPhFbhM775fXCzqihhPDmg63fPr20Db0Q5PrVu+N+oXBc5QWT/fD
+T4KWTUvonciZeq85Zr9n91EXvjbwx/VON69v6Vg/HreEbjl5or2i4N7SGDWkoT5r
+QBr74EOf25i8czBiYVrE0umJ549W/djz0pEh4dzA8czAG1knr7/qVJydAVdFxPN9
+aMGbo+17oJm74BAqS6qrvpK388yir0uOuoZH4+6nDSXUsOMfH+CvHnGF7F+9qqd7
+a0Q8qI1uuh6s3j1X+y8=
+=83FK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lantins
+
+==================================================================
