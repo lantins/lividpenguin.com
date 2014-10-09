@@ -3,24 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title><%= current_page.data.title || data.meta.title %></title>
     <% if current_page.data.description %>
-      <meta name="description" content="<%= current_page.data.description %>" />
-    <% else data.meta.description %>
-      <meta name="description" content="<%= current_page.data.description %>" />
+    <meta name="description" content="<%= current_page.data.description %>" />
     <% end %>
-
     <% if current_page.data.keywords %>
-      <meta name="keywords" content="<%= current_page.data.keywords.join(',') %>" />
-    <% else data.meta.keywords %>
-      <meta name="keywords" content="<%= data.meta.keywords.join(',') %>" />
+    <meta name="keywords" content="<%= current_page.data.keywords.join(',') %>" />
     <% end %>
-
     <meta name="author" content="Luke Antins">
 
     <link rel="shortcut icon" href="/favicon.ico">
-
-    <title><%= current_page.data.title || data.meta.title %></title>
-
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Geo" rel="stylesheet" type="text/css">
 
     <%= stylesheet_link_tag 'livid' %>
