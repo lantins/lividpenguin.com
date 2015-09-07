@@ -21,7 +21,7 @@ end
 
 # --- SITEMAPS -----------------------------------------------------------------
 
-set :url_root, 'http://float64.uk'
+set :url_root, 'http://lividpenguin.com'
 activate :search_engine_sitemap
 
 # --- TEMPLATE HELPER METHODS --------------------------------------------------
