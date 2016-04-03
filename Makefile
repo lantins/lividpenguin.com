@@ -14,6 +14,7 @@ assets: $(CSS_FILES)
 	sed -i '' "s|\(Last update:\)\(.*\)|\1 `date +'%Y/%m/%d'`|" static/humans.txt
 
 deploy:
+	aws s3 sync ./public/ s3://f64.cf.lividpenguin.com/ --delete
 
 serve:
 	forego start
