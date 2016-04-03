@@ -14,7 +14,7 @@ body {
 
 .jumbotron.penguin {
   background: #716558;
-  background-image: url(../img/full-penguin-cropped.png);
+  background-image: url(/img/full-penguin-cropped.png);
   background-repeat: no-repeat;
   background-position: right -140px top 50px;
   background-size: 600px;
@@ -74,11 +74,11 @@ body {
 .app-store-badge {
   display:inline-block;
   overflow:hidden;
-  background:url(../img/badge_appstore-lrg.png) no-repeat;
+  background:url(/img/badge_appstore-lrg.png) no-repeat;
   width:135px;
   height:40px;
   @media only screen{
-    background-image:url(../img/badge_appstore-lrg.svg);
+    background-image:url(/img/badge_appstore-lrg.svg);
   }
 }
 
