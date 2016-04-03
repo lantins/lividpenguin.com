@@ -13,7 +13,7 @@ assets: $(CSS_FILES)
 	# bump 'last update' in humans.txt
 	sed -i '' "s|\(Last update:\)\(.*\)|\1 `date +'%Y/%m/%d'`|" static/humans.txt
 
-deploy:
+deploy: all
 	aws s3 sync ./public/ s3://f64.cf.lividpenguin.com/ --delete
 
 serve:
