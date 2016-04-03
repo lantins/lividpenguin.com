@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ .Site.Title }}</title>
+    <meta name="description" content="Spectra &middot; Retro style, arcade space shooter, blasting asteroids to survive a little longer." />
+    <meta name="keywords" content="indie,iOS,game,spectra,asteroids,retro,space,shoot,classic,arcade,blast,pew pew" />
+
+    <base href="{{ .Site.BaseURL }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="author" href="humans.txt">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Geo" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/livid.css">
+  </head>
+
+  <body>
+
+    {{ "<!--[if lt IE 7]>" | safeHTML }}
+      <p class="outdatedbrowser">You are using an outdated browser :(<br><a href="http://browsehappy.com/">Upgrade your browser</a> for a better and safer internet experience.</p>
+    {{ "<![endif]-->" | safeHTML }}
+
+    <div id="wrap">
+
+      <section>
+        <div class="jumbotron penguin clearfix">
+
+          <div class="container">
+            <figure class="hardware-5s landscape">
+              <img src="/img/screen568x320.jpg" class="hardware-inside" alt="">
+              <figcaption class="caption">
+                <a class="pull-right app-store-badge" href="https://itunes.apple.com/gb/app/spectra/id563776938?mt=8&amp;uo=4" target="itunes_store"></a>
+                <h1>SPECTRA</h1>
+                <h2>by Livid Penguin</h2>
+                <p>Challenging, intense, retro style, arcade space shooter. Battle your way through the asteroid fields in a bid to survive just a little longer.</p>
+                <a class="btn btn-default" href="#spectra-changelog">VERSION HISTORY</a>
+                <a class="btn btn-default" href="#spectra-faq">FAQ</a>
+              </figcaption>
+            </figure>
+          </div>
+
+        </div>
+
+        <div class="container content-spaced">
+          <a name="spectra-details"></a>
+          <p class="lead" style="margin-top: 20px;">
+            Featuring responsive control system, retro sound effects and game center integration to challenge your friends in the race to number one.
+          </p>
+        </div> <!-- /container -->
+
+        <div class="hline-yellow"></div>
+
+        <div class="container content-spaced version-history">
+
+          <div class="page-header">
+            <a name="spectra-changelog"></a>
+            <h1>Spectra - Version History</h1>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">Spectra v1.0.3</h1>
+              <span class="label label-primary">16th October, 2013</span>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>
+                  <span class="label label-fixed">Fixed</span>
+                  <p>Ensure status bar is hidden in iOS7.</p>
+                </li>
+                <li>
+                  <span class="label label-fixed">Fixed</span>
+                  <p>Correct premature end of init code in "Round Clear".</p>
+                </li>
+                <li>
+                  <span class="label label-improved">Improved</span>
+                  <p>OpenGL performance.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">Spectra v1.0.0</h1>
+              <span class="label label-primary">3rd October, 2013</span>
+            </div>
+            <div class="panel-body">
+              <p class="lead">
+                Initial release to the Apple App Store.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="hline-yellow"></div>
+
+        <div class="container content-spaced faqs">
+          <div class="page-header">
+            <a name="spectra-faq"></a>
+            <h1>Spectra - FAQs</h1>
+          </div>
+
+          <h2 class="question">How do I report a problem or request a change?</h2>
+          <p class="answer">
+            Please please ping an email to <a href="mailto:spectra@lividpenguin.com">spectra@lividpenguin.com</a>
+          </p>
+
+          <h2 class="question">How do I pause or access the menu?</h2>
+          <p class="answer">
+            Tap the screen with <strong>three fingers</strong> to pause the game and display the menu interface.
+          </p>
+
+        </div>
+      </section>
+
+    </div>
+
+    {{ partial "footer.html" . }}
+
+  </body>
+</html>

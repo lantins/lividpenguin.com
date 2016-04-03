@@ -1,0 +1,19 @@
+/* TEAM */
+
+    Developer: Luke Antins
+    Site: http://www.float64.uk
+    Twitter: @lantins
+    Location: Cumbria, United Kingdom
+
+/* SITE */
+
+    Last update: 2016/04/02
+    Language: English
+    Doctype: HTML5
+
+/* TECHNOLOGY COLOPHON */
+
+    HTML5, CSS3, SASS
+    Bootstrap
+    Hugo
+    AWS CloudFront

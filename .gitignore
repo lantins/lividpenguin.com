@@ -1,12 +1,8 @@
-# Ignore bundler config
-/.bundle
+# Ignore build artifacts created by hugo
+/public
 
-# Ignore the middleman build directory
-/build
-
-# Ignore cache
-/.sass-cache
-/.cache
+# Ignore generated css files
+/static/css
 
 # Prevent OS X litter
 .DS_Store
