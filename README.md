@@ -22,6 +22,6 @@ brew install sassc
 brew install awscli
 # Used to watch SASS files for changes and re-run sassc
 go get -u github.com/cespare/reflex
-# Used to start `reflex` and `hugo serve`
+# Used to start `reflex` and `hugo serve` (Procfile is config)
 go get -u github.com/ddollar/forego
 ```
